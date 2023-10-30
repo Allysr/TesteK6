@@ -1,36 +1,29 @@
-# Introdução aos testes de performance com k6
+### Introdução aos testes de performance com k6
 
-<h1 align="left">
-    <img src="" width="250px">
-</h1>
 
-# User API
+### User API
+- https://jsonplaceholder.typicode.com
 
-## 🔖 Requisitos funcionais
 
-### Cadastro
+### 🔖 Requisitos funcionais
 
-- [X] Deve retornar os id ao cadastrar um novo usuário
-- [X] Deve retornar 201 ao cadastrar um novo usuário
-- [X] Deve retornar 400 ao tentar cadastrar sem email e senha
-- [X] Deve retornar 400 se o email for duplicado
+#### Criar Post
 
-| campos   | descrição                             | tipo     | obrigatório |
-| :-----   | :------------------------------------ | :------- | :---------- |
-| email    | usuário identificador único           | email    | sim         |
-| password | senha do usuário                      | texto    | sim         |
+- [X] Deve retornar 200 ao verificar os Posts
+- [X] Deve retornar 201 ao criar um novo Post
 
-## 🔖 Requisitos não funcionais
 
-### Cadastro
+### 🔖 Requisitos não funcionais
 
-- [ ] O cadastro com sucesso deve ocorrer em até 2 segundos
-- [ ] Cadastros sem sucesso devem ocorrer em até 2 segundos
-- [ ] Deve poder cadastrar até 100 usuários simultâneos
-- [ ] A margem de erro no cadastro deve ser de pelo menos 1%
+#### Cadastro
 
-## 🚀 Tecnologias
+- [X] A crição dos posts com sucesso deve ocorrer em até 2 segundos
+- [X] A margem de erro de criação de posts deve ser de pelo menos 1%
+- [X] Deve poder criar até 10 posts simultâneos
+
+### 🚀 Tecnologias
 - [k6] - ferramenta para teste de carga, performance, stress etc...
+- [K6-reporter] - gera relatórios dos testes
 
 
 
