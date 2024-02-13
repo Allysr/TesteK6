@@ -1,8 +1,6 @@
-### Introdução aos testes de performance com k6
-
-
-### User API
-- https://jsonplaceholder.typicode.com
+<h1 align="center">
+Introdução aos testes de performance com k6
+</h1>
 
 
 ### 🔖 Requisitos funcionais
@@ -26,4 +24,7 @@
 - [K6-reporter] - gera relatórios dos testes
 
 
+<br>
+Site utilizado: https://jsonplaceholder.typicode.com
+<h1>
 
