@@ -3,6 +3,14 @@ Introdução aos testes de performance com k6
 </h1>
 
 
+#### Como executar o projeto:
+```diff 
+• git clone
+• cd testeK6
+• choco install k6
+• k6 run arquivo.js
+```
+
 ### 🔖 Requisitos funcionais
 
 #### Criar Post
