@@ -19,10 +19,6 @@ Introdução aos testes de performance com k6
 - [X] A margem de erro de criação de posts deve ser de pelo menos 1%
 - [X] Deve poder criar até 10 posts simultâneos
 
-### 🚀 Tecnologias
-- [k6] - ferramenta para teste de carga, performance, stress etc...
-- [K6-reporter] - gera relatórios dos testes
-
 
 <br>
 Site utilizado: https://jsonplaceholder.typicode.com
